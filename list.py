@@ -4,4 +4,5 @@ list.append(216)
 
 list.remove(2)
 
+
 print(list)
