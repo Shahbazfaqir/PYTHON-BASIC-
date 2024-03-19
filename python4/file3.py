@@ -1,1 +1,1 @@
-python("python4")
+print("python4")
