@@ -22,7 +22,10 @@ class Student:
         print("IT department students")
 
     def wellcome(self):
-        print("wellcome students")
+        print("wellcome students",self.name)
+    
+    def age(self):
+        return self.age
 
 s1=Student("ali",25,"CS")
 print(s1.name,s1.age,s1.department)
@@ -34,6 +37,7 @@ print(s2.name,s2.age,s2.department)
 s1.wellcome()
 s2.wellcome()
 
+print(s1.age)
 
 
 
