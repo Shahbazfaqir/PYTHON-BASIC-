@@ -43,24 +43,15 @@
 
 
 class Student:
-    def __init__(self,name,math,oop,algo):
+    pass 
+    
 
-        self.name=name
-        self.math=math
-        self.oop=oop
-        self.algo=algo
-
-        def avg_marks(self):
-            sub=math+oop+algo
-            sum1=sub/3
-
-            return sum1
+        
 
 
-s1=Student("ali",70,80,90)
 
 
-print(sum1)
+
 
 
 
@@ -83,13 +74,3 @@ print(sum1)
 # s1=Car()
 # print(s1.color)
 # print(s1.brand)
-
-
-
-
-
-
-
-
-
-
