@@ -21,6 +21,9 @@ class Student:
         self.department=department
         print("IT department students")
 
+    def wellcome(self):
+        print("wellcome students")
+
 s1=Student("ali",25,"CS")
 print(s1.name,s1.age,s1.department)
 
@@ -28,7 +31,8 @@ s2=Student("usman",24,"sw")
 print(s2.name,s2.age,s2.department)
 
 
-
+s1.wellcome()
+s2.wellcome()
 
 
 
