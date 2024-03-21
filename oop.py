@@ -42,8 +42,18 @@
 
 
 
-class Student:
-    pass 
+class Car:
+    def __init__(self, make, model, year):  # Constructor to initialize object attributes
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def accelerate(self):  # Method to simulate acceleration
+        print(self.make, self.model, "is accelerating!")
+
+my_car = Car("Honda", "Civic", 2023)
+my_car.accelerate()  # Output: Honda Civic is accelerating!
+
     
 
         
